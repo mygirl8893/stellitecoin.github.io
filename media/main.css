@@ -53,6 +53,7 @@ a:focus { transition: all 0.3s }
 .block-password { background-color: #999; color: white; background: #999 url('../img/password.png') bottom right no-repeat }
 .block-fast { background-color: #9B59B6; color: white; background: #9B59B6 url('../img/fast.png') bottom left no-repeat }
 .block-dynamic { background: #1ABC9C url('../img/zerotalk.png') 30% 0% no-repeat; }
+.block-dynamic-simple { background: #FFDE55 url('../img/zerotalk.png') 30% 0% no-repeat; }
 .block-dynamic-detail h3 { color: #1ABC9C; }
 .block-everywhere { background-color: #F33A58; color: white; background: #F33A58 url('../img/browsers.png') bottom center no-repeat }
 .block-anon { background-color: #34495E; color: white; background: #34495E url('../img/anon.png') bottom right no-repeat }
