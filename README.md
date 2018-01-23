@@ -1,6 +1,6 @@
-# Stellite Website
+# Stellite Homepage
 
-This is the repository for the official Stellite website.
+This is a repository for the official homepage.
 
 Credits:
-Thanks to the entire zeronet team for their amazing front end template!
+Thank you to ZeroNet for their amazing front end template!
