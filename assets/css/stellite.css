@@ -8174,7 +8174,7 @@ body.modal-open {
 /* 23 :: SECTIONS */
 .section {
   position: relative;
-  padding: 8rem 0;
+  padding: 2rem 0;
   z-index: 1; }
 
 @media (max-width: 991px) {
@@ -8189,7 +8189,7 @@ body.modal-open {
 
 /* 23.1 :: Section Heading */
 .section .section-heading {
-  margin-bottom: 4rem; }
+  margin-bottom: 0rem; }
   .section .section-heading .icon {
     display: inline-block;
     font-size: 3.6rem;
