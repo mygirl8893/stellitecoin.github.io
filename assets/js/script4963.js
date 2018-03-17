@@ -18,6 +18,12 @@
         a.scroll(function() {
             var e = a.scrollTop();
             a.width() > 991 && e > o.top ? n.hasClass("has-fixed") || n.addClass("has-fixed") : n.hasClass("has-fixed") && n.removeClass("has-fixed")
+            a.width() > 991 && e > o.top ?
+                i.hasClass("theme-light") || i.addClass("theme-light") :
+                i.hasClass("theme-light") && i.removeClass("theme-light")
+            a.width() > 991 && e > o.top ?
+                i.hasClass("transparent") || i.addClass("transparent") :
+                i.hasClass("transparent") && i.removeClass("transparent")
         })
     }
     e('a.menu-link[href*="#"]:not([href="#"])').on("click", function() {
@@ -193,7 +199,7 @@
     }), e("#particles-js").length > 0 && particlesJS("particles-js", {
         particles: {
             number: {
-                value: 50,
+                value: 100,
                 density: {
                     enable: !0,
                     value_area: 800
@@ -288,7 +294,7 @@
                     speed: 3
                 },
                 repulse: {
-                    distance: 200,
+                    distance: 75,
                     duration: .4
                 },
                 push: {
